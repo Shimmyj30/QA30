@@ -1,0 +1,171 @@
+/* Modern styles.css */
+
+/* General reset */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    
+    background-color: #ffe8d6; 
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(90deg, #ff6f61, #D2042D);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.nav-list a:hover {
+    color: 	#D2042D;
+    transform: scale(1.1);
+}
+
+/* Section styles */
+h1  {
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px;
+  }
+  
+  
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section p {;}
+
+#basketball h2 {
+    color: #F28C28;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px
+}
+
+#salsa h2 {
+    color: 	#D2042D;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px
+
+}
+
+.section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#salsa img {border-radius: 15px}
+/* Contact form styles */
+#contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#contact-form:hover {
+    transform: translateY(-5px);
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: #f9f9f9;
+    transition: border 0.3s;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus {
+    border-color: #ff6f61;
+    outline: none;
+}
+
+#contact-form button {
+    padding: 0.8rem 2rem;
+    background: #ff6f61;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+#contact-form button:hover {
+    background: #d84315;
+    transform: translateY(-3px);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
